@@ -13,6 +13,6 @@ class Atm {
 			amount = amount % notes[i];
 		}
 		for(int i = 0; i < notes.length; i++)
-			System.out.println(atmAmounts[i]);
+			System.out.println("Notes of "+notes[i]+ " : " + atmAmounts[i]);
 	}
 }
